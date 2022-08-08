@@ -52,8 +52,61 @@ table {
   border-spacing: 0;
 }
 
+img {
+  vertical-align: bottom;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.lh-32 {
+  line-height: 32px;
+}
+
+.lh-36 {
+  line-height: 36px;
+}
+
+.color-white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+header {
+  background: url(https://hexschool.github.io/webLayoutTraining1st/week2/banner.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1 {
-  width: 300px;
+  line-height: 106px;
+  font-size: 80px;
+}
+
+header .container {
+  width: 304px;
+  padding: 308px 0px;
 }
 
 /*# sourceMappingURL=all.css.map */
