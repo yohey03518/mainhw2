@@ -49,10 +49,56 @@ p,
   justify-content: center;
 }
 
+.exps li::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 1rem;
+  margin-right: 16px;
+}
+
 .li-icon {
   display: inline-block;
   width: 22px;
   height: 22px;
   background-color: #891818;
   border-radius: 1rem;
+}
+
+.mybrand {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.brand-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.other-work.container {
+  text-align: center;
+}
+
+.other-work-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 0px;
+  justify-content: space-between;
+}
+
+.other-work-items h3 {
+ margin-top: 16px; 
+}
+
+footer {
+  background-color: #000;
+}
+
+footer .container {
+  width: 315px;
+  margin: 0 auto;
 }
